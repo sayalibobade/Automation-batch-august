@@ -1,53 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-18T17:27:50 IST" name="Default suite" finished-at="2024-06-18T17:28:05 IST" duration-ms="14575">
+  <suite started-at="2024-06-19T09:46:54 IST" name="Suite" finished-at="2024-06-19T09:46:55 IST" duration-ms="138">
     <groups>
+      <group name="High">
+        <method signature="Groups_parameter.browser_launch()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="browser_launch" class="testng_package.Groups_parameter"/>
+        <method signature="Groups_parameter.click_search()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="click_search" class="testng_package.Groups_parameter"/>
+        <method signature="Groups_parameter.select_option()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="select_option" class="testng_package.Groups_parameter"/>
+      </group> <!-- High -->
+      <group name="Medium">
+        <method signature="Groups_parameter.search_locate()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="search_locate" class="testng_package.Groups_parameter"/>
+        <method signature="Groups_parameter.search_sendkeys()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="search_sendkeys" class="testng_package.Groups_parameter"/>
+        <method signature="Groups_parameter.urlhit()[pri:0, instance:testng_package.Groups_parameter@436813f3]" name="urlhit" class="testng_package.Groups_parameter"/>
+      </group> <!-- Medium -->
     </groups>
-    <test started-at="2024-06-18T17:27:50 IST" name="Default test" finished-at="2024-06-18T17:28:05 IST" duration-ms="14575">
-      <class name="testng_package.Test_ng_class">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:27:47 IST" name="launch" finished-at="2024-06-18T17:27:50 IST" duration-ms="3069" status="PASS">
+    <test started-at="2024-06-19T09:46:54 IST" name="GroupTest" finished-at="2024-06-19T09:46:55 IST" duration-ms="138">
+      <class name="testng_package.Groups_parameter">
+        <test-method signature="browser_launch()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="browser_launch" finished-at="2024-06-19T09:46:55 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method is-config="true" signature="win_max()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:27:50 IST" name="win_max" finished-at="2024-06-18T17:27:50 IST" duration-ms="82" status="PASS">
+        </test-method> <!-- browser_launch -->
+        <test-method signature="click_search()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="click_search" finished-at="2024-06-19T09:46:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- win_max -->
-        <test-method is-config="true" signature="urlhit()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:27:50 IST" name="urlhit" finished-at="2024-06-18T17:27:59 IST" duration-ms="8161" status="PASS">
+        </test-method> <!-- click_search -->
+        <test-method signature="search_locate()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="search_locate" finished-at="2024-06-19T09:46:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_locate -->
+        <test-method signature="search_sendkeys()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="search_sendkeys" finished-at="2024-06-19T09:46:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_sendkeys -->
+        <test-method signature="select_option()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="select_option" finished-at="2024-06-19T09:46:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_option -->
+        <test-method signature="urlhit()[pri:0, instance:testng_package.Groups_parameter@436813f3]" started-at="2024-06-19T09:46:55 IST" name="urlhit" finished-at="2024-06-19T09:46:55 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlhit -->
-        <test-method signature="search()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:27:59 IST" name="search" finished-at="2024-06-18T17:28:01 IST" duration-ms="2005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="aftermeth()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:01 IST" name="aftermeth" finished-at="2024-06-18T17:28:01 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermeth -->
-        <test-method is-config="true" signature="urlhit()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:01 IST" name="urlhit" finished-at="2024-06-18T17:28:03 IST" duration-ms="1995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlhit -->
-        <test-method signature="sendk()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:03 IST" name="sendk" finished-at="2024-06-18T17:28:05 IST" duration-ms="2251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendk -->
-        <test-method is-config="true" signature="aftermeth()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:05 IST" name="aftermeth" finished-at="2024-06-18T17:28:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermeth -->
-        <test-method is-config="true" signature="aftertes()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:05 IST" name="aftertes" finished-at="2024-06-18T17:28:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertes -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:testng_package.Test_ng_class@78691363]" started-at="2024-06-18T17:28:05 IST" name="afterSuit" finished-at="2024-06-18T17:28:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuit -->
-      </class> <!-- testng_package.Test_ng_class -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testng_package.Groups_parameter -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- Suite -->
 </testng-results>

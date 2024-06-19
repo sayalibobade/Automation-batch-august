@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Project_testng_verify">
+<suite name="AnnotatonSuite">
+  <test thread-count="5" name="AnnotaionTest">
     <classes>
       <class name="testng_package.Test_ng_class"/>
     </classes>
-  </test> <!-- Project_testng_verify -->
-</suite> <!-- Suite -->
+  </test> <!-- AnnotaionTest -->
+</suite> <!-- AnnotatonSuite -->

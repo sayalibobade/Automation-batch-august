@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="multi_class_exeSuite">
+  <test thread-count="5" name="Testcombine">
+    <classes>
+      <class name="testng_package.NewTest"/>
+      <class name="testng_package.Test_ng_class"/>
+    </classes>
+  </test> <!-- Testcombine -->
+</suite> <!-- multi_class_exeSuite -->

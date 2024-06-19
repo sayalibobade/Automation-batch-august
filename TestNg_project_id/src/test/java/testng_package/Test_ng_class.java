@@ -1,18 +1,19 @@
 package testng_package;
 
+
+import org.testng.annotations.Test;
+
 import java.time.Duration;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -25,15 +26,19 @@ import org.testng.annotations.Test;
 public class Test_ng_class   {
 	
 	public static WebDriver driver;
-	//public static WebElement search;
+	//public static  WebElement search;
 	
-	
-	@BeforeClass
-	public void wait1() {
+@BeforeClass
+public void wait1() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-System.out.println("implicit wait for 5 sec");
-		
+		System.out.println("implicit wait for 5 sec");
 	}
+//	@BeforeClass
+//	public void wait1() {
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//System.out.println("implicit wait for 5 sec");
+//		
+//	}
 	@BeforeTest
 	
 	public void win_max() {
@@ -75,9 +80,9 @@ System.out.println("implicit wait for 5 sec");
 	  System.out.println("after method");
   }
   @AfterClass
-  public void afterclas() {
+ public void afterclas() {
 	  System.out.println("after class");
-  }
+ }
   @AfterTest
   public void aftertes() {
 	  System.out.println("after test");
